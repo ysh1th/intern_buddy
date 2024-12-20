@@ -1,0 +1,4 @@
+chainlit
+requests
+pydantic==2.10.1
+

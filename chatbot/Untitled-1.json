@@ -1,0 +1,32 @@
+{
+   "id":"8960c60d-b838-417c-bacf-0dce4863f651",
+   "model":"llama-3.1-sonar-small-128k-online",
+   "created":1734111765,
+   "usage":{
+      "prompt_tokens":40,
+      "completion_tokens":5,
+      "total_tokens":45
+   },
+   "citations":[
+      "https://resume.co/blog/project-manager-interview-questions",
+      "https://www.scholarhat.com/tutorial/interview/Accenture-interview-questions",
+      "https://www.indeed.com/hire/c/info/behavioral-interview-questions-for-managers",
+      "https://www.remoterocketship.com/advice/cultural-fit-interview-questions/tell-me-about-a-time-when-you-had-to-deal-with-a-difficult-or-unexpected-situation-at-work",
+      "https://blog.masterofproject.com/18-project-manager-interview-questions/"
+   ],
+   "object":"chat.completion",
+   "choices":[
+      {
+         "index":0,
+         "finish_reason":"length",
+         "message":{
+            "role":"assistant",
+            "content":"Given the user's skills"
+         },
+         "delta":{
+            "role":"assistant",
+            "content":""
+         }
+      }
+   ]
+}
