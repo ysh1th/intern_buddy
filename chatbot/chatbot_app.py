@@ -7,8 +7,8 @@ import chainlit as cl
 import atexit
 
 from chatbot_logic import generate_behavioral_questions, generate_follow_up_question, response_analysis
-from database.db_queries import store_first_question, store_first_response, store_follow_up_question, store_follow_up_response, store_analysis, fetch_first_question, fetch_first_response, fetch_follow_up_question, fetch_follow_up_response, remove_db # import python file that contains database queries for sqlite3
-from database.chat_db import initialize_db
+from chatbot_database.db_queries import store_first_question, store_first_response, store_follow_up_question, store_follow_up_response, store_analysis, fetch_first_question, fetch_first_response, fetch_follow_up_question, fetch_follow_up_response, remove_db # import python file that contains database queries for sqlite3
+from chatbot_database.chat_db import initialize_db
 
 # store session id for db use
 # user_id = 1234

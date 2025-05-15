@@ -3,7 +3,6 @@ import folium
 from streamlit_folium import st_folium
 from PyPDF2 import PdfReader
 import yaml
-from openai import OpenAI
 from folium.plugins import Geocoder
 import json
 from math import radians, sin, cos, sqrt, atan2
@@ -12,7 +11,6 @@ from datetime import datetime, time
 import polyline
 import googlemaps
 
-###### new imports ######
 import time
 import requests
 import subprocess
@@ -295,7 +293,7 @@ def main():
                         st.success(" launch success...")
                         webbrowser.open(chainlit_url)
                         st.write(f"Visit the [Chainlit interface]({chainlit_url}).")
-               
+
                 show_route = st.button("Show Route")
                 if show_route:
                     st.session_state.route_shown = True
